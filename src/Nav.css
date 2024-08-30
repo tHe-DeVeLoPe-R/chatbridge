@@ -1,0 +1,41 @@
+.nav-main {
+    background-color: #25D366;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0; /* Remove default margin */
+    padding: 3px; /* Remove default padding */
+}
+
+.nav-a {
+    text-decoration: none;
+}
+
+.nav-li {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    transition: color 1s ease, transform 1s ease;
+}
+
+.nav-li:hover{
+    color: #36064F;
+    scale: 0.9;
+    text-decoration-color: white;
+   
+}
+
+.active{
+    color: #36064F;
+    scale: 0.9;
+}
