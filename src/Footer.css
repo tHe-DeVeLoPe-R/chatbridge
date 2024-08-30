@@ -1,0 +1,8 @@
+.footer-para1{
+    margin-top: 8%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(136, 136, 136);
+    font-style: italic;
+}
