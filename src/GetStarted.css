@@ -1,0 +1,87 @@
+/* Container for the form */
+.form-container {
+    max-width: 400px; /* Maximum width of the form */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 20px; /* Internal padding */
+    background-color: #ffffff; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
+    text-align: center; /* Center text in the container */
+}
+
+/* Styling for the heading */
+.form-container h1 {
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Font size for the heading */
+    color: #333; /* Text color */
+}
+
+/* Form styling */
+.get-started-form {
+    display: flex;
+    flex-direction: column; /* Stack form elements vertically */
+}
+
+/* Group form fields with label */
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+    text-align: left; /* Align labels to the left */
+}
+
+/* Styling for labels */
+.form-group label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below labels */
+    font-weight: bold; /* Bold text for labels */
+    color: #333; /* Text color */
+}
+
+/* Input field styling */
+.form-group input {
+    width: 100%; /* Full width input */
+    padding: 10px; /* Padding inside the input */
+    font-size: 16px; /* Font size */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Button styling */
+.btn {
+    background-color: #25D366; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #1e8e5f; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+/* Button styling */
+.back-btn {
+    background-color: #292929; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.back-btn:hover {
+    background-color: #1f1f1f; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.error {
+    color: red;
+  }
