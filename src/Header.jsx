@@ -21,10 +21,13 @@ export default function Header() {
 
 
             </div> <br />
-            <div className='logo-div'>
-                <img className='logo-style' src={logo} alt="" />
+            
+                <img className='logo-style' src={logo} alt="" /> <br />
+                <small className='version'>v 1.0.1</small>
+                
                 <h2 className='introHeading-style'>Chat Bridge</h2>
-            </div>
+            
+           
 
 
         </> : <>
@@ -42,7 +45,9 @@ export default function Header() {
             </div><br />
             <div className='logo-div'>
                 <img className='logo-style' src={logo} alt="" />
+                
             </div>
+            <small className='version'>v 1.0.1</small>
 
         </>
 
