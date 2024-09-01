@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/chatbridge/static/css/main.343829c0.css",
+    "main.css": "/chatbridge/static/css/main.5406ef97.css",
     "main.js": "/chatbridge/static/js/main.6d33dbb7.js",
     "static/js/453.bb0e2ded.chunk.js": "/chatbridge/static/js/453.bb0e2ded.chunk.js",
     "static/media/logo.jpeg": "/chatbridge/static/media/logo.4c5243656687eeebc154.jpeg",
     "index.html": "/chatbridge/index.html",
-    "main.343829c0.css.map": "/chatbridge/static/css/main.343829c0.css.map",
+    "main.5406ef97.css.map": "/chatbridge/static/css/main.5406ef97.css.map",
     "main.6d33dbb7.js.map": "/chatbridge/static/js/main.6d33dbb7.js.map",
     "453.bb0e2ded.chunk.js.map": "/chatbridge/static/js/453.bb0e2ded.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.343829c0.css",
+    "static/css/main.5406ef97.css",
     "static/js/main.6d33dbb7.js"
   ]
 }
