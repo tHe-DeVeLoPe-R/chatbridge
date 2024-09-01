@@ -24,7 +24,7 @@
     font-size: 20px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
-    width: 60%;
+    width: 80%;
 }
 
 .touch-btn{
@@ -48,5 +48,5 @@
     font-size: 20px; /* Font size */
     cursor: pointer; /* Pointer cursor on hover */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
-    width: 60%;
+    width: 80%;
 }
