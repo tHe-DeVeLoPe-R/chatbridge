@@ -1,8 +1,12 @@
 import React, { useState } from 'react'
 import './GetStarted.css' // Import the CSS file for styling
+import { useMediaQuery } from 'react-responsive'
+import logo from './images/logo.jpeg'
+import { FaArrowLeft } from 'react-icons/fa';
 
+export default function GetStarted({ handleBackEvent }) {
 
-export default function GetStarted() {
+    const isMobile = useMediaQuery({query: '(max-width: 600px)'});
 
     const [countryCode, setCountryCode] = useState('')
     const [phone, setPhone] = useState('')
@@ -17,7 +21,7 @@ export default function GetStarted() {
         setPhone(event.target.value);
     }
 
-    const handleWhatsappConnectEvent =  (event) => {
+    const handleWhatsappConnectEvent = (event) => {
         event.preventDefault();
         const startingText = 'Hello';
         const url = `https://wa.me/${countryCode}${phone}?text=${startingText}`;
@@ -25,17 +29,30 @@ export default function GetStarted() {
         try {
             window.open(url, '_blank');
         } catch (error) {
-            setError(`Invalid phone number or unable to open WhatsApp ${error}`);
+            setError(`${error}`);
         }
 
 
     }
     return (
         <>
+          <div className='icon-connect'>
+                <button className='arrow-btn' onClick={()=>{
+                    window.close();
+                }}>
+                    <FaArrowLeft className='ico-style' />
+                </button>
 
-            <div className="form-container">
-                <h1>Let's Have it!</h1>
-                <form className="get-started-form" onSubmit={(e)=> handleWhatsappConnectEvent(e)}>
+
+                <h2 className='connectHeading-style'>Connect Whatsapp </h2>
+
+
+            </div>
+          <img className='logo-style' src={logo} alt="" /> <br /><br />
+            <div className= {isMobile? 'mobile-form-container' : 'form-container'}>
+                
+                <h2 className='heading'>Enter Phone Number</h2>
+                <form className="get-started-form" onSubmit={(e) => handleWhatsappConnectEvent(e)}>
                     <div className="form-group">
                         <label htmlFor="country-code">Country Code:</label>
                         <input type="text" id="country-code" name="countryCode" placeholder="+92" value={countryCode}
@@ -46,11 +63,7 @@ export default function GetStarted() {
                         <input type="text" id="contact" name="contact" placeholder="3010000000" value={phone} onChange={(e) => handlePhoneChange(e)} required />
                     </div>
                     <button type="submit" className="btn">Connect Whatsapp</button> <br />
-                    <button onClick={() => {
-                        window.location.reload();
-
-
-                    }} className="back-btn">Back Home</button> <br />
+                    <button onClick={handleBackEvent} className="back-btn">Back Home</button> <br />
                 </form>
                 {error && <p className="error">{error}</p>}
             </div>

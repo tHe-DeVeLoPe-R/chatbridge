@@ -1,87 +1,191 @@
+.icon-connect {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.arrow-btn{
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    left: 5%;
+    cursor: pointer;
+}
+
+.logo-style {
+    width: 116px;
+    height: 116px;
+    text-align: center;
+}
+
+.connectHeading-style {
+    color: #01304A;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+.heading {
+    color: #01304A;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.logo-style {
+    width: 116px;
+    height: 116px;
+    text-align: center;
+}
 /* Container for the form */
 .form-container {
-    max-width: 400px; /* Maximum width of the form */
-    margin: 50px auto; /* Center the form on the page */
-    padding: 20px; /* Internal padding */
-    background-color: #ffffff; /* White background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for depth */
-    text-align: center; /* Center text in the container */
+    max-width: 50%;
+    /* Maximum width of the form */
+    padding: 20px;
+    /* Internal padding */
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Box shadow for depth */
+    text-align: center;
+    /* Center text in the container */
+    margin: 0 auto;
+    /* Center horizontally */
+}
+
+.mobile-form-container {
+    max-width: 80%;
+    /* Maximum width of the form */
+    padding: 20px;
+    /* Internal padding */
+    background-color: #ffffff;
+    /* White background */
+    border-radius: 10px;
+    /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Box shadow for depth */
+    text-align: center;
+    /* Center text in the container */
+    margin: 0 auto;
+    /* Center horizontally */
 }
 
 /* Styling for the heading */
 .form-container h1 {
-    margin-bottom: 20px; /* Space below the heading */
-    font-size: 24px; /* Font size for the heading */
-    color: #333; /* Text color */
+    margin-bottom: 20px;
+    /* Space below the heading */
+    font-size: 24px;
+    /* Font size for the heading */
+    color: #333;
+    /* Text color */
 }
 
 /* Form styling */
 .get-started-form {
     display: flex;
-    flex-direction: column; /* Stack form elements vertically */
+    flex-direction: column;
+    /* Stack form elements vertically */
+
 }
 
 /* Group form fields with label */
 .form-group {
-    margin-bottom: 15px; /* Space between form groups */
-    text-align: left; /* Align labels to the left */
+    margin-bottom: 15px;
+    /* Space between form groups */
+    text-align: left;
+    /* Align labels to the left */
 }
 
 /* Styling for labels */
 .form-group label {
-    display: block; /* Block display for labels */
-    margin-bottom: 5px; /* Space below labels */
-    font-weight: bold; /* Bold text for labels */
-    color: #333; /* Text color */
+    display: block;
+    /* Block display for labels */
+    margin-bottom: 5px;
+    /* Space below labels */
+    font-weight: bold;
+    /* Bold text for labels */
+    color: #333;
+    /* Text color */
 }
 
 /* Input field styling */
 .form-group input {
-    width: 100%; /* Full width input */
-    padding: 10px; /* Padding inside the input */
-    font-size: 16px; /* Font size */
-    border: 1px solid #ccc; /* Light grey border */
-    border-radius: 5px; /* Rounded corners */
-    box-sizing: border-box; /* Ensure padding is included in width */
+    width: 100%;
+    /* Full width input */
+    padding: 10px;
+    /* Padding inside the input */
+    font-size: 16px;
+    /* Font size */
+    border: 1px solid #ccc;
+    /* Light grey border */
+    border-radius: 5px;
+    /* Rounded corners */
+    box-sizing: border-box;
+    /* Ensure padding is included in width */
 }
 
 /* Button styling */
 .btn {
-    background-color: #25D366; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px; /* Padding inside the button */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    background-color: #01304A;
+    /* Green background */
+    color: white;
+    /* White text */
+    border: none;
+    /* No border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Padding inside the button */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition on hover */
 }
 
 /* Button hover effect */
 .btn:hover {
-    background-color: #1e8e5f; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly increase the size on hover */
+    background-color: #01304A;
+    /* Darker green on hover */
+    transform: scale(1.05);
+    /* Slightly increase the size on hover */
 }
 
 /* Button styling */
 .back-btn {
-    background-color: #292929; /* Green background */
-    color: white; /* White text */
-    border: none; /* No border */
-    border-radius: 5px; /* Rounded corners */
-    padding: 10px; /* Padding inside the button */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    background-color: white;
+    /* Green background */
+    color: #01304A;
+    /* White text */
+    border: 1px solid #01304A;
+    /* Solid border */
+    border-radius: 5px;
+    /* Rounded corners */
+    padding: 10px;
+    /* Padding inside the button */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    /* Smooth transition on hover */
 }
 
 /* Button hover effect */
 .back-btn:hover {
-    background-color: #1f1f1f; /* Darker green on hover */
-    transform: scale(1.05); /* Slightly increase the size on hover */
+
+    transform: scale(1.05);
+    /* Slightly increase the size on hover */
 }
 
 .error {
     color: red;
-  }
+}

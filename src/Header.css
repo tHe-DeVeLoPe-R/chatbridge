@@ -1,0 +1,47 @@
+.icon-intro {
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.introHeading-style {
+    color: #01304A;
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+.ico-style {
+    width: 27px;
+    height: 24px;
+    color: #01304A;
+   
+}
+
+.logo-style {
+    width: 116px;
+    height: 116px;
+    text-align: center;
+}
+
+/* desktop special */
+
+.desktop-introHeading-style {
+    color: #01304A;
+    font-weight: bold;
+
+
+}
+
+.arrow-btn{
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    left: 5%;
+    cursor: pointer;
+}

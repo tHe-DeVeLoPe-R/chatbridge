@@ -1,8 +1,13 @@
 .footer-para1{
-    margin-top: 8%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    color: rgb(136, 136, 136);
+   
+    color: grey;
     font-style: italic;
+    opacity: 0.7;
+}
+.or{
+    color: grey;
 }

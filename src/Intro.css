@@ -8,10 +8,45 @@
     flex-wrap: wrap;
     margin-left: 5%;
     margin-right: 5%;
+    font-size: 16px;
+    color: #01304A;
     
 }
+
 
 .logo{
  width: 100px;
  height: 100px;
+}
+
+.btn {
+    background-color: #25D366; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #1e8e5f; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly increase the size on hover */
+}
+
+.welcome-heading{
+    margin-top: 10%;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #01304A;
+}
+.desktop-welcome-heading{
+    margin-top: 2%;
+    position: relative;
+    font-size: 24px;
+    font-weight: bold;
+    color: #01304A;
 }

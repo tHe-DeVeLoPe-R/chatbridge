@@ -1,0 +1,52 @@
+.bottom-nav{
+    margin-top: 5%;
+}
+.mobile-bottom-nav{
+    margin-top: 8%;
+}
+.start-btn{
+    background-color: #01304A; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    width: 30%;
+}
+.mobile-start-btn{
+    background-color: #01304A; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    width: 60%;
+}
+
+.touch-btn{
+    background-color: white; /* Green background */
+    color: #01304A; /* White text */
+    border: 1px solid #01304A; /* Solid border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    width: 30%;
+    
+}
+.mobile-touch-btn{
+    background-color: white; /* Green background */
+    color: #01304A; /* White text */
+    border: 1px solid #01304A; /* Solid border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside the button */
+    font-size: 20px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
+    width: 60%;
+}
