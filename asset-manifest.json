@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/chatbridge/static/css/main.4c4be9d2.css",
-    "main.js": "/chatbridge/static/js/main.c2833561.js",
+    "main.css": "/chatbridge/static/css/main.f48dfb64.css",
+    "main.js": "/chatbridge/static/js/main.f6b6a9d0.js",
     "static/js/453.bb0e2ded.chunk.js": "/chatbridge/static/js/453.bb0e2ded.chunk.js",
     "static/media/logo.jpeg": "/chatbridge/static/media/logo.4c5243656687eeebc154.jpeg",
+    "static/media/darklogo.png": "/chatbridge/static/media/darklogo.54c5fc83203fdd3df0e3.png",
     "index.html": "/chatbridge/index.html",
-    "main.4c4be9d2.css.map": "/chatbridge/static/css/main.4c4be9d2.css.map",
-    "main.c2833561.js.map": "/chatbridge/static/js/main.c2833561.js.map",
+    "main.f48dfb64.css.map": "/chatbridge/static/css/main.f48dfb64.css.map",
+    "main.f6b6a9d0.js.map": "/chatbridge/static/js/main.f6b6a9d0.js.map",
     "453.bb0e2ded.chunk.js.map": "/chatbridge/static/js/453.bb0e2ded.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c4be9d2.css",
-    "static/js/main.c2833561.js"
+    "static/css/main.f48dfb64.css",
+    "static/js/main.f6b6a9d0.js"
   ]
 }
