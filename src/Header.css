@@ -1,3 +1,4 @@
+
 .icon-intro {
     margin-top: 10px;
     align-items: center;
@@ -21,6 +22,13 @@
    
 }
 
+.ico-style-dark-theme {
+    width: 27px;
+    height: 24px;
+    color: white;
+   
+}
+
 .logo-style {
     width: 116px;
     height: 116px;
@@ -31,15 +39,20 @@
     color: grey;
     opacity: 0.7;
 }
+
+.dark-theme-color{
+    color: white;
+}
 /* desktop special */
+
 
 .desktop-introHeading-style {
     color: #01304A;
     font-weight: bold;
-
-
 }
-
+.darktheme-introHeading-style {
+    color: white;
+    }
 .arrow-btn{
     background: none;
     border: none;
@@ -49,3 +62,13 @@
     left: 5%;
     cursor: pointer;
 }
+.moon-btn{
+    background: none;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    left: 80%;
+    cursor: pointer;
+}
+

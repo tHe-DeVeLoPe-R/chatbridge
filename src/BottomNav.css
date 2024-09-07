@@ -50,3 +50,12 @@
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition on hover */
     width: 80%;
 }
+.dark-theme-start-btn{
+ background-color: white;
+ color: #01304A;
+}
+.dark-theme-touch-btn{
+    color: white;
+    background-color: #01304A;
+    border: 1px solid white;
+}

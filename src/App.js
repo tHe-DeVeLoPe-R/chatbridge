@@ -8,6 +8,7 @@ import BottomNav from './BottomNav.jsx';
 
 function App() {
   const [start, setStart] = useState(false)
+  const [darkTheme, setDarkTheme] = useState(false)
 
   let handleStartClick = () => {
     setStart(true);
@@ -16,20 +17,26 @@ function App() {
   let handleBackHomeClick = ()=>{
     setStart(false);
   }
+
+  let handleTheme= ()=>{
+   setDarkTheme(!darkTheme)
+   
+  }
+  
   return (
     <div className="App">
 
       {
         start ? <>
-          <GetStarted handleBackEvent = {handleBackHomeClick}/>
-          <Footer />
+          <GetStarted handleBackEvent = {handleBackHomeClick} theme = {darkTheme}/>
+          <Footer theme = {darkTheme}/>
 
 
         </> : <>
-        <Header/>
-          <Intro  />
-          <BottomNav handleClick={handleStartClick}/>
-          <Footer />
+        <Header handleDarkTheme={handleTheme } theme = {darkTheme}/>
+          <Intro  theme = {darkTheme}/>
+          <BottomNav handleClick={handleStartClick} theme = {darkTheme}/>
+          <Footer theme = {darkTheme}/>
         </>
       }
 

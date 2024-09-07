@@ -28,6 +28,7 @@
 
 
 }
+
 .heading {
     color: #01304A;
     text-align: center;
@@ -104,7 +105,7 @@
 }
 
 /* Styling for labels */
-.form-group label {
+.form-group-label {
     display: block;
     /* Block display for labels */
     margin-bottom: 5px;
@@ -116,7 +117,7 @@
 }
 
 /* Input field styling */
-.form-group input {
+.form-group-input {
     width: 100%;
     /* Full width input */
     padding: 10px;
@@ -147,14 +148,13 @@
     /* Font size */
     cursor: pointer;
     /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition:  transform 0.3s ease;
     /* Smooth transition on hover */
 }
 
 /* Button hover effect */
 .btn:hover {
-    background-color: #01304A;
-    /* Darker green on hover */
+    
     transform: scale(1.05);
     /* Slightly increase the size on hover */
 }
@@ -175,7 +175,7 @@
     /* Font size */
     cursor: pointer;
     /* Pointer cursor on hover */
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    transition:  transform 0.3s ease;
     /* Smooth transition on hover */
 }
 
@@ -189,3 +189,38 @@
 .error {
     color: red;
 }
+
+.dark-text-style {
+    color: white;
+    
+}
+.dark-form-bg{
+    background-color: #01304A;
+    border: 1px solid white;
+}
+.dark-input{
+    color: white;
+    background-color: #01304A;
+    border: 1px solid white;
+}
+.dark-btn{
+    background-color: white;
+    color: #01304A;
+}
+.dark-back-btn{
+    background-color: #01304A;
+    border: 1px solid white;
+    color: white;
+}
+
+/* dropdown */
+
+/* Target the flag container */
+.phone-input .flag-dropdown {
+    width: 20%; /* Adjust width for the flag side */
+  }
+  
+  /* Target the input container */
+  .phone-input .form-control {
+    width: calc(100% - 20%); /* Adjust the width of the input side by subtracting the flag width */
+  }
